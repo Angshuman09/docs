@@ -1,12 +1,3 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:"Open Sans", sans-serif;
-}
-
-::selection{
-  color: rgb(255, 255, 146)
-}

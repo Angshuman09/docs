@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import Card from './Card'
 
 function Foreground() {
+  const ref = useRef(null);
   return (
-    <div className='fixed top-0 left-0 z-3 w-full h-screen'></div>
+    <div ref={ref} className='fixed top-0 left-0 z-30 w-full h-full p-5'>
+      <Card reference = {ref}/>
+    </div>
   )
 }
 
